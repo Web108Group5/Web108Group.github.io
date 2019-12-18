@@ -1,11 +1,11 @@
 # Web108Group5.github.io
-Current status: We have finnished the general design of storyline.
-Next talk: Dec. 17th,Wed.
+Current status: 開始采集素材和寫網頁。
+Next talk: Fri. Night 12.20
 
 ## 預計采訪店家：
 
 - 蕭家傳統小吃（小吃店）
-- 品味牛肉麵（小吃店）
+- ？牛肉麵（小吃店）
 - 候補：稻咖喱（餐廳）；站食可以（某種程度的幽靈厨房）
 ## 采訪的準備
 - 準備紙筆，寫好問題的筆記本
