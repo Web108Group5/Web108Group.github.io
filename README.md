@@ -58,3 +58,8 @@ Next talk: Fri. Night 12.20
 - 確認網站流程，設計的ppt檔案上傳。
 - 確認第一次采訪的時間地點
 - 敘事模板：https://www.awwwards.com/sites/the-urban-village-project (見PPT PAGE11)
+
+
+## 12.18 晚間餐廳調查意願:
+- 母女的店:12/20，17:00-18:00 第一次採訪
+- 地址:台北市中正區羅斯福路三段286巷4弄10號
