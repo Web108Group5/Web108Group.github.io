@@ -1,54 +1,40 @@
-#nav,#cotent,#support{
-    width: 100;
-    height: 300;
-}
+
 #nav {
     width:100px;
-    background-color: aqua;
+    background-color: red;
     float: left;
-    
-    
+    opacity: 0.5;
+    width:100%;
 }
-
-#banner {
-    width: 800px;
-    background-color: bisque;
-    height: 150px;
-}
-
-#content {
-    float: left;
-    height: 200px;
-    background: lightblue;
-    width: 500px;
-    padding-top: 100px;
-    font-size: 32px;
-    
-}
-
-#footer {
-    clear: both;
-    background: RGB(0,100,200);
-
-}
-
-#support {
-    float: left;
-}
-body{
-    margin: 0 auto;
-    width: 800px;
-    
-}
-
-.container {
-    padding: 5px;
-    margin: 5px;
-    #background: RGB(200,200,200);
-}
-
 h1 {
-    text-align: center
+    text-align: center;
+}
+
+section {
+	font-family: Microsoft JhengHei, serif;	
+	width: 100%; height: 100vh;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+
+/* Flex Box 設定內部元素置中	 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
+.fixed {
+	position: fixed;
+	display:center;
+	text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#reminder{
+    background-color:yellow;
+    opacity: 50%;
+    width: 100%;
+}
