@@ -2,6 +2,8 @@ $(document).ready(function() {
 
     //var tofix1_height = $('#tofix1').offset().top; //Reserve the original height
     //var tofix2_height = $('#tofix2').offset().top; //Reserve the original height
+    var menu_height=$('#menu').offset().top;
+    var story_height=$('#story1').offset().top;
     var zoomed=false;
     var menuShowed=false;
     
@@ -32,14 +34,14 @@ $(document).ready(function() {
             zoomed=true;
             console.log('zoomed in')
             $("html, body").animate({scrollTop: $("#menu").offset().top }, {duration: 500,easing: "swing"});
-            
+            //$('#menu').addClass('fixed');
             menuShowed=true;
         }
 
         if(current_pos<=600 && zoomed){
             $('#iphone').animate({height:"90vh",marginTop:"0vh"});
             zoomed=false;
-            console.log('zoomed back')
+            console.log('zoomed back');
         }
 
         var new_width = win_w * current_pos / max_scroll;
@@ -48,7 +50,22 @@ $(document).ready(function() {
          //   'width': new_width
         //});
 
+        if(current_pos>menu_height){
+            $('#menu').addClass('fixed-top');
+        }
+        if(current_pos<menu_height ){
+            $('#menu').removeClass('fixed-top');
+        }
+
+        if(current_pos>story_height){
+            $('#menu').fadeOut()
+            $('#sub1').css('top',story_height-current_pos);
+        }
+        if(current_pos<story_height){
+            $('#menu').fadeIn()
+        }
 
 
+        
     });
 });

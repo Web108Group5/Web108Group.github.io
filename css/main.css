@@ -17,6 +17,7 @@ h1 {
     margin-right: 5vw;
     height: 100vh;
     border-radius:30px;
+    
 }
 
 
@@ -35,7 +36,7 @@ section {
     background-size: cover;
     border-radius:50px;
     margin-bottom:20px;
-    margin-top:20px;
+    margin-top:0px;
 
 
 /* Flex Box 設定內部元素置中	 */
@@ -72,7 +73,11 @@ section {
     top: 50%;
     transform: translate(-50%,-50%);
 }
-
+.air{
+    background-color:blue;
+    opacity: 0;
+    height:100vh ;
+}
 #reminder{
     background-color:yellow;
     opacity: 50%;
@@ -82,6 +87,28 @@ section {
     height:90vh;
     animation:zoom 1s;
 }
+
+#menu{
+    background-color:green;
+    /*background-image: url("assets/123.png");*/
+    border-radius:0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -1;
+}
+#menu2{
+    background-color:pink;
+    /*background-image: url("assets/123_2.png");*/
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 @keyframes zoom{
