@@ -4,8 +4,14 @@ $(document).ready(function() {
     //var tofix2_height = $('#tofix2').offset().top; //Reserve the original height
     var menu_height=$('#menu').offset().top;
     var story_height=$('#story1').offset().top;
+    var window_height=$(window).height();
+
+
+    var story1_height=$('#story1-2').offset().top;
     var zoomed=false;
-    var menuShowed=false;
+    var menuShowed=true;
+
+    
     
     $(window).scroll(function() {
         var max_scroll = $(document).height() - $(window).height();
@@ -57,14 +63,30 @@ $(document).ready(function() {
             $('#menu').removeClass('fixed-top');
         }
 
-        if(current_pos>story_height){
-            $('#menu').fadeOut()
-            $('#sub1').css('top',story_height-current_pos);
+        if(current_pos>=story_height-window_height&& menuShowed ){
+            $('#menu').fadeOut();
+            console.log('story begin');
+            //$('#story1-1').addClass('fixed');
+            //$('#story1-2').addClass('fixed');
+           
+            
+            menuShowed=false;
+            //$('#sub1').css('top',story_height-current_pos);
         }
-        if(current_pos<story_height){
+        if(current_pos<=story_height-window_height&&!menuShowed){
             $('#menu').fadeIn()
+            menuShowed=true;
         }
+        if(current_pos>=story_height-300){
+            $('#story1-2').animate({marginTop:"0px"},3000,"swing");
+            $('#story1-3').animate({marginTop:"0px"},3000,"swing");
+            console.log("animate trigged");
+        }
+      
 
+
+
+       // if(current_pos>=story_height)
 
         
     });

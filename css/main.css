@@ -58,7 +58,8 @@ section {
     padding-top:40vh;
 }
 .fixed {
-	position: fixed;
+    position: fixed;
+    bottom: 0;
 	/*display:center;
 	text-align: center;
     left: 50%;
@@ -107,8 +108,44 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
+.sub1{
+    height:100vh;
+    background-color: cadetblue;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius:30px;
+    opacity:0.5;
+    z-index: 2;
+}
+.sub2{
+    height:90vh ;
+    background-color: cyan;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius:30px;
+    opacity:0.5;
+    margin-top: -100vh;
+    z-index: 3;
+    
+}
+.sub3{
+    height:80vh;
+    background-color:blue;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius:30px;
+    margin-top: -90vh;
+    
+    z-index: 999;
+    opacity:0.5;
+   
+}
+.glass{
+    opacity: 0;
+}
 
 
 @keyframes zoom{
