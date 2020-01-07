@@ -78,8 +78,8 @@ $(document).ready(function() {
             menuShowed=true;
         }
         if(current_pos>=story_height-300){
-            $('#story1-2').animate({marginTop:"0px"},3000,"swing");
-            $('#story1-3').animate({marginTop:"0px"},3000,"swing");
+            //$('#story1-2').animate({marginTop:"0px"},3000,"swing");
+         //   $('#story1-3').animate({marginTop:"0px"},3000,"swing");
             console.log("animate trigged");
         }
       
