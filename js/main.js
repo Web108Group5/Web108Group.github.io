@@ -37,7 +37,7 @@ $(document).ready(function() {
             menuShowed = false;
         }
         if(current_pos>=1000 && !zoomed){
-            $('#iphone').animate({height:"530vh",marginTop:"-80vh"});
+            $('#iphone').animate({height:"530vh",marginTop:"-80vh", marginRight:"-110px"});
             zoomed=true;
             console.log('zoomed in')
             $("html, body").animate({scrollTop: $("#menu").offset().top }, {duration: 500,easing: "swing"});
