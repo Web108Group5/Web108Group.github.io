@@ -133,6 +133,7 @@ section {
     border-radius:30px;
     opacity:0.5;
     z-index: 2;
+    top:50px;
 }
 .sub2{
     height:90vh ;
@@ -143,6 +144,7 @@ section {
     opacity:0.5;
     margin-top: 0vh;
     z-index: 3;
+    top:100px;
     
 }
 .sub3{
@@ -155,6 +157,7 @@ section {
     
     z-index: 999;
     opacity:0.5;
+    top:150px;
    
 }
 .glass{
