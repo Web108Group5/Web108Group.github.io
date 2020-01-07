@@ -116,6 +116,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/menu.jpg");
+    background-image: url("/img/menu.jpg");
     z-index: -1;
 }
 #menu2{
