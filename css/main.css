@@ -134,6 +134,7 @@ section {
     opacity:0.5;
     z-index: 2;
     top:50px;
+    margin-top: 50px;
 }
 .sub2{
     height:90vh ;
