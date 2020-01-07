@@ -1,3 +1,4 @@
+window.onload=function(){
 $(document).ready(function() {
 
     //var tofix1_height = $('#tofix1').offset().top; //Reserve the original height
@@ -91,3 +92,4 @@ $(document).ready(function() {
         
     });
 });
+}
