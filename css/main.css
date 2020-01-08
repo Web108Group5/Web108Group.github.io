@@ -24,6 +24,14 @@ h3{
     margin-bottom:20px;
     color:white;
 }
+h4{
+    color:black;
+    margin-left:80px;
+}
+h5{
+    color:black;
+    margin-left:80px;
+}
 .whitetext{
     color: white;
     font-family:sans-serif;
@@ -129,7 +137,11 @@ section {
     height:90vh;
     animation:zoom 1s;
 }
-
+#phone{
+    height:90vh;
+    animation:zoom 1s;
+  
+}
 #menu{
     /*background-color:black ;*/
     /*background-image: url("assets/123.png");*/
@@ -151,6 +163,18 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
+}
+#pic1{
+    background-image: url("../img/D_4_1160x773.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    
+}
+#pic2{
+    background-image: url("../img/D_2_1160x773.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover
 }
 
 .sub1{
@@ -202,7 +226,9 @@ section {
 .glass{
     opacity: 0;
 }
-
+#endframe{
+    background-image: url("../img/menu.jpg");
+}
 
 @keyframes zoom{
     from{
@@ -284,4 +310,7 @@ section {
 }
 #story4{
     background-color: #e9d29c;
+}
+#end{
+    height:1vh;
 }

@@ -5,6 +5,7 @@ $(document).ready(function() {
     //var tofix2_height = $('#tofix2').offset().top; //Reserve the original height
     var menu_height=$('#menu').offset().top;
     var story_height=$('#story1').offset().top;
+    var end_height=$('#end').offset().top;
     var window_height=$(window).height();
 
 
@@ -85,14 +86,18 @@ $(document).ready(function() {
         if(current_pos>=story_height-300){
             //$('#story1-2').animate({marginTop:"0px"},3000,"swing");
          //   $('#story1-3').animate({marginTop:"0px"},3000,"swing");
-            console.log("animate trigged");
+            console.log(end_height);
         }
       
-
-
+        
 
        // if(current_pos>=story_height)
-
+        if(current_pos>end_height-story_height){
+            
+            $('#phone').fadeIn();
+            //$('#phone').css("position","fixed");
+            console.log('show phone');
+        }
         
     });
 });
