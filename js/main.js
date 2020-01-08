@@ -37,18 +37,22 @@ $(document).ready(function() {
             menuShowed = false;
         }
         if(current_pos>=1000 && !zoomed){
-            $('#iphone').animate({height:"530vh",marginTop:"-80vh", marginRight:"-110px"});
+            $('#iphone').animate({height:"530vh",marginTop:"-80vh", marginRight:"-110px",opacity:"0"},"normal","swing");
             zoomed=true;
             console.log('zoomed in')
+            $('#title1').fadeOut();
+            $('#title2').fadeOut();
             $("html, body").animate({scrollTop: $("#menu").offset().top }, {duration: 500,easing: "swing"});
             //$('#menu').addClass('fixed');
             menuShowed=true;
         }
 
         if(current_pos<=600 && zoomed){
-            $('#iphone').animate({height:"90vh",marginTop:"0vh"});
+            $('#iphone').animate({height:"90vh",marginTop:"0vh",opacity:"1"});
             zoomed=false;
             console.log('zoomed back');
+            $('#title1').fadeIn();
+            $('#title2').fadeIn();
         }
 
         var new_width = win_w * current_pos / max_scroll;
