@@ -8,7 +8,20 @@
 }
 h1 {
     text-align: center;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom:20px;
+    color:white;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:20px;
+    color:white;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:20px;
     color:white;
 }
 .whitetext{
@@ -220,7 +233,7 @@ section {
     background-image: url("../img/M_4_1160x773.jpg");
 }
 #story1-3{
-    -webkit-filter:brightness(0.9);
+    
     background-image: url("../img/M_3_1160x773.jpg");
     
 }
