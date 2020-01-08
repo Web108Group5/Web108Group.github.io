@@ -253,13 +253,23 @@ section {
 }
 
 #story3-2{
-    background-image: url("../img/T_5_1160x773.jpg");
+    background-image: url("../img/D_5_1160x773.jpg");
 }
 
 #story3-3{
-    background-image: url("../img/T_7_1160x773.jpg");
+    background-image: url("../img/D_7_1160x773.jpg");
 }
 
 .transY{
     transform: translateY(100px);
+}
+
+#story1{
+    background-color: #877492;
+}
+#story2{
+    background-color: #28396d;
+}
+#story3{
+    background-color: #7b685a;
 }
