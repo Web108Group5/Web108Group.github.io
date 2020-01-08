@@ -249,13 +249,17 @@ section {
 
 
 #story3-1{
-    background-image: url("../img/T_2_1160x773.jpg");
+    background-image: url("../img/D_1_1160x773.jpg");
 }
 
 #story3-2{
-    background-image: url("../img/T_2_1160x773.jpg");
+    background-image: url("../img/T_5_1160x773.jpg");
 }
 
 #story3-3{
-    background-image: url("../img/T_2_1160x773.jpg");
+    background-image: url("../img/T_7_1160x773.jpg");
+}
+
+.transY{
+    transform: translateY(100px);
 }
